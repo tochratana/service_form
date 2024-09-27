@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "Teko";
+  src: url("./assets/fonts/Teko-VariableFont.ttf") format("truetype");
+  font-weight: 100 900; /* Adjust based on the font's weight range */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins"; /* Capitalized to match the font name */
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400; /* Regular weight */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pacifico"; /* Capitalized for consistency */
+  src: url("./assets/fonts/Pacifico-Regular.ttf") format("truetype");
+  font-weight: normal; /* Pacifico is usually a single weight */
+  font-style: normal;
+}
